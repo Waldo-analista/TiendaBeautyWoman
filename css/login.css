@@ -1,0 +1,103 @@
+main{
+    padding-bottom: 1rem;
+    background-color:#e5e5e5;
+}
+
+
+main h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: sifon; 
+    font-size: 1.5rem;
+}
+
+main form{
+    margin: 0 auto;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main form label{
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+main form input{
+    font-family: sifon;
+    width:18rem;
+    border-radius: 15px;
+    background-color: white;
+    border:none;
+    padding:.5rem 0 .5rem 1rem;
+    font-size: 1.1rem;
+    color:black;
+    width: 100%;
+
+}
+
+main form button{
+    margin-top: 1rem;
+    padding:0.5rem 1.5rem 0.5rem 1.5rem;
+    border:1px solid #e4087d;
+    border-radius: 10px;
+    background-color: #9681EB;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+}
+main form button:hover{
+    background-color: red;
+}
+
+.swal-text {
+    text-align: center;
+  }
+
+
+
+
+/*Formato de Validación Formulario*/
+
+.contenedor__login__mensaje{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width:100%;
+}
+
+.input__login--error{
+    border: 3px solid #df2525;
+    border-radius: 7px;
+    width: 100%;
+}
+.input__mensaje{
+    display:none;
+    color:red;
+    font-weight: 700;
+
+}
+.input__login--error + .input__mensaje{
+    color: #df2525;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    align-self: flex-start;
+    display:block;
+
+}
+
+
+@media screen and (min-width:550px){
+main form{
+
+    width: 30%;
+
+
+}
+
+}

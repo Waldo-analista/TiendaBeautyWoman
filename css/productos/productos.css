@@ -1,0 +1,133 @@
+.productos{
+    padding-top: 1rem;
+    
+}
+
+
+.productos__contenedor__lista{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.productos__item{
+    width:calc(100%/2 - 10px);
+    margin-right: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px -2px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    margin-bottom: 3rem;
+    position: relative;
+    
+}
+.productos__item:hover{
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+}
+
+.productos__imagen{
+    width:100%;
+}
+
+.productos__titulo{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: sifon;
+    text-align: center;
+}
+
+.productos__subtitulo{
+    font-family: var(--lato);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.productos__boton__agregar_producto{
+    padding:0.5rem;
+    border:2px solid #e4087d;
+    background-color: #e4087d;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+}
+
+.productos__boton__agregar_producto:hover{
+    background-color: white;
+    color:#e4087d;
+    
+}
+
+.productos__contenedor__botones{
+    position:absolute;
+    right: 0;
+    
+    display:flex;
+    flex-direction: column;
+
+}
+
+.productos__contenedor__boton{
+    padding:.5rem;
+    background-color: white;
+    border-radius: 100%;
+    color:#e4087d;
+    cursor:pointer;
+    border: 1px solid black;
+}
+
+.productos__contenedor__boton:hover{
+    color:black;
+}
+
+
+.productos__item_titulo{
+    padding-top: .5rem;
+    text-align: center;
+    color:var(--rosa_principal);
+    font-size: 1rem;
+
+}
+
+.productos__item__precio{
+    margin-top: 0.5rem;
+    margin-bottom: .5rem;
+    color:#111111;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+@media screen and (min-width:550px) and (max-width:767px){
+
+    .productos__item{
+        width:calc(100%/4 - 10px);
+    }
+
+    .productos__imagen{
+        width:100%;
+    }
+    
+
+
+}
+
+
+
+@media screen and (min-width:768px){
+    .productos__item{
+        width:calc(100%/6 - 10px);
+    }
+   
+    .productos__imagen{
+        width:100%;
+    }
+    
+
+
+}

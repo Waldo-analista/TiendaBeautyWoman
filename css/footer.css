@@ -1,0 +1,218 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAF2FD;
+    font-family: var(--lato);
+}
+
+.footer__contenedor{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__logo{
+    padding: 1rem 0 1rem 0;
+    max-width: 300px;
+    width:100%;
+
+}
+
+
+.footer__contenedor_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__contenedor_logo p{
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+    font-family: var(--lato);
+}
+
+.footer_mediosdepago{
+    width:100%;
+    max-width: 353px;
+}
+.footer__contenedor_paginas{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__contenedor_paginas_titulo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--lato);
+}
+
+
+.footer__contenedor_paginas iframe {
+    border:1px solid black;
+    width: 80%;
+}
+
+.footer__contenedor_paginas_lista{
+    width:100%;
+}
+.footer__contenedor_paginas_item{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: var(--lato);
+}
+
+.footer__contenedor_paginas_item:hover{
+    font-weight: 700;
+    width:100%;
+    background-color: blueviolet;
+    color:white;
+}
+
+
+.footer__contenedor__contacto{
+    width:100%;
+}
+
+.footer__contenedor__contacto_titulo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--lato);
+}
+
+
+.footer__contenedor__contacto form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.footer__contenedor__contacto label{
+    text-align: center;
+    padding:.5rem 0 .5rem 0;
+    font-weight: 700;
+    font-family: var(--lato);
+}
+
+
+.footer__contenedor__contacto_input{
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-family: sifon;
+    width:100%;
+    border-radius: 10px;
+    border:1px solid black;
+}
+
+.footer__contenedor__contacto textarea{
+    resize: none;
+}
+
+.footer__contenedor__contacto button{
+    padding:0.5rem;
+    margin-top: 0.5rem;
+    border:1px solid #e4087d;
+    border-radius: 10px;
+    background-color: #9681EB;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer__contenedor__contacto button:hover{
+    background-color: red;
+    color:white;
+}
+
+.footer__contenedor__creador{
+    border-top: 1px solid red;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+.footer__contenedor__creador p{
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-family: var(--lato);
+}
+
+.footer__contenedor__creador p:nth-child(2n+1){
+    font-weight: 700;
+}
+
+
+.footer__contenedor__creador p:nth-child(2){
+    font-weight: 700;
+    color:blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer__contenedor__creador p:nth-child(2):hover{
+    color:red;
+    transform: scale(1.1);
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+/**
+Estilos Error Formulario de Contacto
+**/
+.footer__contenedor__input__mensaje{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:60%;
+}
+.footer__contenedor__contacto_input--error{
+    border: 3px solid #df2525;
+    border-radius: 7px;
+}
+.footer__input__mensaje{
+    display:none;
+}
+.footer__contenedor__contacto_input--error + .footer__input__mensaje{
+    color: #df2525;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    align-self: flex-start;
+    display:block;
+
+}
+
+
+
+@media screen and (min-width:768px){
+
+
+    .footer__contenedor{
+        width: 100%;
+        flex-direction: row;
+        box-sizing: border-box;
+        padding:0 5% 0 5%;
+    }
+    .footer__contenedor_logo{
+        width:30%
+    }
+    .footer__contenedor_paginas{
+        width:40%
+    }
+    .footer__contenedor__contacto{
+        width:30%;
+    }
+
+    .footer__contenedor__input__mensaje{
+        width:100%;
+    }
+    
+
+
+}

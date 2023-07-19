@@ -1,0 +1,213 @@
+main{
+    
+    background-color:#e5e5e5;
+}
+
+main form{
+    width:80%;
+}
+
+main h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: sifon; 
+    font-size:1.5rem;
+}
+
+main form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    margin: 0 auto;
+}
+
+main form label{
+    font-weight: 700;
+    
+}
+
+main form input{
+    font-family: sifon;
+    width:100%;
+    border-radius: 15px;
+    background-color: white;
+    border:none;
+    padding:.5rem 0 .5rem 1rem;
+    font-size: 1.1rem;
+    color:black;
+}
+
+main form textarea{
+    font-family: sifon;
+    width:100%;
+    border-radius: 15px;
+    background-color: white;
+    border:none;
+    padding:.5rem 0 .5rem 1rem;
+    font-size: 1.1rem;
+    color:black;
+    resize: none;
+}
+
+main form button{
+    margin-bottom: 2rem;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border:1px solid #e4087d;
+    border-radius: 10px;
+    background-color: #9681EB;
+    color:white;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+main form button:hover{
+    background-color: red;
+}
+
+.form__contenedor__buscar_producto{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__boton__buscar_producto{
+    margin-bottom: .5rem;
+}
+
+.form__drag_area{
+    width:80%;
+    background-color: white;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    border: 2px dashed #C8C8C8;
+}
+
+.form__drag_area__imagen{
+    width:20%;
+}
+
+.form__drag_area_descripcion{
+    text-align: center;
+    display:none;
+}
+
+.form__drag_area_descripcion--crear{
+    text-align: center;
+}
+.form__contenedor__buscar_producto_separador{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#categoria{
+    width:50%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.form__buscar_producto{
+    width:50%;
+}
+.form__input__archivo{
+    display:none;
+}
+
+.form__label__archivo{
+    display:block;
+    text-align: center;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border:1px solid #e4087d;
+    border-radius: 10px;
+    background-color: #9681EB;
+    color:white;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+
+/*Formato de Validación Formulario*/
+
+.contenedor__formulario__producto__mensaje{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+}
+
+.formulario__producto--error{
+    border: 3px solid #df2525;
+    border-radius: 7px;
+    width: 100%;
+}
+.formulario__producto__mensaje{
+    display:none;
+    color:red;
+    font-weight: 700;
+    
+
+}
+.formulario__producto--error + .formulario__producto__mensaje{
+    color: #df2525;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    align-self: flex-start;
+    display:block;
+
+}
+
+
+/*Clase para agregar en error al drag area*/
+.form__drag_area--error{
+    background-color: red;
+}
+.form__drag_area--error > .form__drag_area_descripcion--crear{
+    color:white;
+    
+}
+
+@media screen and (min-width:550px) {
+
+    main form{
+        width:50%;
+    }
+    .form__contenedor__buscar_producto{
+        flex-direction: row;
+    }
+    .form__contenedor__buscar_producto_separador{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .form__drag_area{
+        width:50%;
+    }
+    .form__contenedor__buscar_producto {
+        justify-content: space-evenly;
+    }
+
+    .form__drag_area__imagen{
+        width:20%;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    main form{
+        width:50%;
+    }
+    .form__drag_area{
+        width:50%;
+    }
+
+    .form__buscar_producto {
+        width: 40%;
+    }
+}

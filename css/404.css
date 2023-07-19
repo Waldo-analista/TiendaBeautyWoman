@@ -1,0 +1,54 @@
+.seccion__404{
+display:flex;
+flex-direction: column;
+background-color: lightgray;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+.seccion__404__imagen{
+    width: 100%;
+}
+.seccion__404__contenedor{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.seccion__404__titulo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: sifon;
+    font-size: 2rem;
+}
+
+.seccion__404__boton{
+    align-self: center;
+    padding:0.5rem 1.5rem 0.5rem 1.5rem;
+    border:1px solid #e4087d;
+    border-radius: 10px;
+    background-color: #9681EB;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.seccion__404__boton:hover{
+    background-color: red;
+}
+
+
+@media screen and (min-width:550px){
+    .seccion__404{
+        flex-direction: row;
+    }
+    .seccion__404__imagen{
+        width: 50%;
+        max-width: 1000px;
+    }
+    .seccion__404__contenedor{
+        width:50%;
+        justify-content: center;
+    }
+
+}

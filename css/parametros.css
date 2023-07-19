@@ -1,0 +1,22 @@
+:root{
+    --lato: 'Lato',sans-serif;
+    --arvo: Arvo, sans-serif;
+    --rosa_principal:#e4087d;
+}
+
+
+
+@font-face {
+    font-family: sifon;
+    src:url(../Sifonn-Pro.ttf);
+}
+
+
+.contenedor{
+    padding:0 5% 0 5%;
+
+}
+
+body{
+    font-family: var(--lato);
+}

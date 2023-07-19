@@ -1,0 +1,150 @@
+
+.gym__titulo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: sifon;
+    display:flex;
+    align-items: center;
+}
+
+.gym__titulo_span{
+    margin:0 15px;
+}
+
+.gym__titulo b{
+    background-color: currentColor;
+    flex: 1;
+    height: 2px;
+    opacity: .3;
+}
+
+.gym__contenedor_lista{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.gym__item{
+    width:calc(100%/2 - 10px);
+    margin-right: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px -2px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+.gym__item:hover{
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+}
+
+.gym__item:nth-child(4),.gym__item:nth-child(6){
+    display:none;
+}
+
+
+.gym__imagen{
+    width:100%;
+}
+.gym__item_contenedor{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gym__item_titulo{
+    padding-top: .5rem;
+    text-align: center;
+    color:var(--rosa_principal);
+    font-size: 1rem;
+
+}
+
+.gym__item__precio{
+    margin-top: 0.5rem;
+    color:#111111;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+
+.gym__button,.gym__boton_catalogo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding:0.5rem;
+    border:2px solid #e4087d;
+    background-color: white;
+    color:#e4087d;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gym__button:hover{
+    background-color: #e4087d;
+    color:white;
+}
+
+.gym__catalogo_titulo{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color:#777777;
+}
+
+.gym__boton_catalogo{
+    background-color: #e4087d;
+    color:white;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+}
+.gym__boton_catalogo:hover{
+    background-color: white;
+    color:#e4087d;
+}
+
+
+@media screen and (min-width:550px) and (max-width:767px){
+
+    .gym__item{
+        width:calc(100%/4 - 10px);
+    }
+
+    .gym__imagen{
+        width:100%;
+    }
+    
+    .gym__item_titulo{
+        padding-top: .5rem;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:768px){
+    .gym__item{
+        width:calc(100%/6 - 10px);
+    }
+
+    .gym__item:nth-child(4),.gym__item:nth-child(6){
+        display:flex;
+    }
+   
+    .gym__imagen{
+        width:100%;
+    }
+    
+    .gym__item_titulo{
+        padding-top: .5rem;
+        text-align: center;
+    }
+
+
+}
+

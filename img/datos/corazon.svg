@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="98" height="73" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect height="0" id="svg_2" transform="matrix(1 0 0 1 0 0)" width="0" x="28" y="48.5"/>
+  <use id="svg_4" transform="matrix(0.127147 0 0 0.110208 58.739 55.6147)" x="-480.09" xlink:href="#svg_3" y="-570.49"/>
+ </g>
+ <defs>
+  <symbol height="800px" id="svg_3" viewBox="0 0 24 24" width="800px" xmlns="http://www.w3.org/2000/svg">
+   <path d="m12.39,20.87a0.7,0.7 0 0 1 -0.78,0c-1.85,-1.23 -9.61,-6.72 -9.61,-11.9c0,-6.68 7.85,-7.75 10,-3.25c2.15,-4.5 10,-3.43 10,3.25c0,5.18 -7.76,10.67 -9.61,11.9z" fill="#000000"/>
+  </symbol>
+ </defs>
+</svg>
