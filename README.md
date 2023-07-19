@@ -56,5 +56,35 @@ Como se puedo apreciar al interactuar con mi proyecto he creado TODO lo que pide
 
 <strong>Para finalizar y a modo de conclusión: este desafío es mucho más complejo que los 2 desafíos anteriores ya que requiere una alta comprensión de conceptos avanzados de JavaScript, específicamente, el trabajo con arrays, métodos, objetos, módulos, funciones asíncronas y promesas. Sin embargo, toda persona que presente dificultades en comprender estos conceptos o desee algún tipo de guía bien puede clonar este repositorio y/o el repositorio donde se encuentra el db.json y hacer sus propias pruebas e implementaciones.</strong>
 
+A continuación se puede visualizar imagenes de algunas de las páginas del sitio web:
+
+**Página Principal:**<br><br>
+![Página Principal](img/ScreenShotsWebSite/PáginaPrincipal.png)<br>
+
+**Catálogo de Productos:**<br><br>
+![Catálogo de Prodcutos](img/ScreenShotsWebSite/CatalogoDeProductos.png)<br>
+
+**Página de Producto:**<br><br>
+![Página de Producto](img/ScreenShotsWebSite/PáginaDeProducto.png)<br>
+
+**Página de Categoría:**<br><br>
+![Página de Categoría](img/ScreenShotsWebSite/PáginadeCategoría.png)<br>
+
+**Página de Ingreso:**<br><br>
+![Página de Ingreso](img/ScreenShotsWebSite/PáginaLogIn.png)<br>
+
+**Página de Panel de Administración:**<br><br>
+![Página de Panel de Administración](img/ScreenShotsWebSite/PáginaPanelDeAdministración.png)<br>
+
+**Página de Crear Producto:**<br><br>
+![Página de Crear Producto](img/ScreenShotsWebSite/PáginaCrearProducto.png)<br>
+
+**Página de Editar Producto:**<br><br>
+![Página de Editar Producto](img/ScreenShotsWebSite/PáginaEditarProducto.png)<br>
+
+
+
+
+
     
 
