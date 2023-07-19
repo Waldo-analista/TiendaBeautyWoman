@@ -1,5 +1,5 @@
 const boton_verAllProductos=document.querySelector('.banner__boton');
-boton_verAllProductos.addEventListener("click",()=>window.location.assign('../productosShow.html'))
+boton_verAllProductos.addEventListener("click",()=>window.location.href='../productosShow.html')
 
 
 const boton_verGymProducts=document.querySelector('.gym__boton_catalogo');
