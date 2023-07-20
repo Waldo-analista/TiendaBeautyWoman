@@ -82,6 +82,9 @@ A continuación se puede visualizar imagenes de algunas de las páginas del siti
 **Página de Editar Producto:**<br><br>
 ![Página de Editar Producto](img/ScreenShotsWebSite/PáginaEditarProducto.png)<br>
 
+**Página Tipo Sección 404:**<br><br>
+![Página Tipo Sección 404](img/ScreenShotsWebSite/SecciónTipo404.png)<br>
+
 
 
 
