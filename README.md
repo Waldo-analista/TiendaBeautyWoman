@@ -42,7 +42,7 @@ Recordando que ninguno de los campos debe estar en blanco o vacío.<br><br>
 -En la página de Administrador debe existir un botón para **editar** productos y hacer, vía JavaScript, que se pueda editar un producto en el JSON SERVER.<br><br>
 -**DESAFIO EXTRA (opcional)**: Crear una página de descripción de productos de modo tal que al hacer click en el botón de Ver Productos que se encuentra en la página principal para cada producto sea posible acceder a la data de descripción de solo ese producto y además mostrar una sección con productos recomendados dentro de esa categoría.
 
-Como se puedo apreciar, al interactuar con mi proyecto, he creado TODO lo que piden como requisito y además he ido más allá en cuanto a temas de diseño. Como un resumen de extras que contiene mi proyecto listo lo siguientre:
+Como se puedo apreciar, al interactuar con mi proyecto, he creado TODO lo que piden como requisito y además he ido más allá en cuanto a temas de diseño. Como un resumen de extras que contiene mi proyecto, listo lo siguientre:
 
 -Crear páginas de error (simil a un error 404) cuando se intenta a acceder a páginas como pagina_producto.html sin ID ó con más de 2 parámetros ó con ID que no se encuentra en el JSON; acceder a página productosAdmin.html sin los parámetros query en la URL (esto, en la realidad, no se realiza ya que pasar parámetros en la URL del tipo contraseña no es seguro pero como ejercicio para trabajar con query parameters me permito realizar aquello) de email y password de Admin ó con más de 2 parámetros ó con parametros que no tienen ni los nombres email o password. 
 
