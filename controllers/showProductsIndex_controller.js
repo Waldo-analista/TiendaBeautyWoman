@@ -15,7 +15,7 @@ export const showProductsCategoria=(categoria)=>{
             `<img src=${objeto.imagen} alt=${objeto.nombre} class="${categoria}__imagen">
             <p class="${categoria}__item_titulo">${objeto.nombre}</p>
             <p class="${categoria}__item__precio">${objeto.precio}</p>
-            <button class="${categoria}__button"><a href="../pagina_producto.html?id=${objeto.id}">Ver Producto</a></button>`;
+            <button class="${categoria}__button" title="Ver ${objeto.nombre}"><a href="../pagina_producto.html?id=${objeto.id}">Ver Producto</a></button>`;
             listElement.innerHTML=contenido;
 
             contenedorLista.appendChild(listElement);
