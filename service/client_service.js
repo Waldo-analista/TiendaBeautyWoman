@@ -1,6 +1,5 @@
-const urlProductosAPI='https://tiny-costume-tuna.cyclic.app/productos';
-const urlAdminAPI='https://tiny-costume-tuna.cyclic.app/perfil';
-
+const urlProductosAPI='https://dataapibeautywoman.onrender.com/productos';
+const urlAdminAPI='https://dataapibeautywoman.onrender.com/perfil';
 
 const eliminarCliente = (id) => {
     return fetch(urlProductosAPI+"/"+id, {
