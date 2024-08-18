@@ -1,98 +1,234 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>Tienda Beauty Women: Belleza y Moda para la Mujer Moderna</title>
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="css/reset.css" rel="stylesheet">    
-    <link href="css/parametros.css" rel="stylesheet">  
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/portada/gym.css">
-    <link rel="stylesheet" href="css/portada/oficina.css">
-    <link rel="stylesheet" href="css/portada/casual.css"> 
-    <link rel="stylesheet" href="css/productos/productos.css">
-    <link rel="stylesheet" href="css/404.css">
-</head>
-    <body>
-        <header class="header contenedor">
-            <a class="header__link" href="/"><img src="img/logo.png" alt="Logo Tienda Beauty Women" class="header__logo" title="Tienda Beauty Woman"></a> 
-             <nav class="header__nav">
-                 <ul class="header__lista">
-                     <li class="header__item"><div class="header__contenedor_buscar_lupa"><input type="text" class="header__buscador" placeholder="¿Qué deseas buscar?"><i class="fa-solid fa-magnifying-glass header__boton_buscar" title="Buscar"></i></div></li>
-                     <li class="header__item"><button class="header__button_login"><a href="login.html" title="Ingresar">LOG IN</a></button></li>
-                 </ul>
-             </nav>
-         </header>
-        <main>
-            
-        </main>
-        <footer class="footer">
-            <div class="footer__contenedor">
-                <div class="footer__contenedor_logo">
-                    <a href="/" class="footer__link"><img src="img/logo.png" alt="Logo Tienda Beauty Women" class="footer__logo"></a>
-                    <p><span style="font-weight: 700;">Nuestra Ubicación:</span> </br>Santiago, Chile<img style="width:2rem;margin-bottom: -10px;" src="https://img.icons8.com/color/48/chile.png" alt="chile"/>
-                    </br></br><span style="font-weight: 700;">Horario Sala de Ventas:</span></br></br><span>Lunes a Viernes: 9:00 AM a 18:00 PM</span>
-                    </br></br><span style="font-weight: 700;">Teléfono</span>:<a href="tel:56963061568">+569 63061568</a>
-                    </br></br>
-                    <span style="font-weight: 700;">Mail</span>: <a href="mailto:whidalgohp@gmail.com">whidalgohp@gmail.com</a> / <a href="mailto:waldo.hidalgo@waldohidalgo.cl">waldo.hidalgo@waldohidalgo.cl</a></p>
-                    <p style="font-weight: 700;">Medios de Pago</p>
-                    <img style="width:100%;" src="img/medios-de-pago.png" alt="Medios de Pago" class="footer_mediosdepago">
-                </div>
-                <div class="footer__contenedor_paginas">
-                    <p class="footer__contenedor_paginas_titulo">Menú</p>
-                    <ul class="footer__contenedor_paginas_lista">
-                        <li class="footer__contenedor_paginas_item"><a href="#">Quienes Somos &#128081;</a></li>
-                        <li class="footer__contenedor_paginas_item"><a href="#">Nuestros Productos &#128150;</a></li>
-                        <li class="footer__contenedor_paginas_item"><a href="">Nuestras Tiendas &#128087;</a></li>
-                        <li class="footer__contenedor_paginas_item"><a href="">Programa de Fidelización &#128260;</a></li>
-                        <li class="footer__contenedor_paginas_item"><a href="">Blog &#128187;</a></li>
-                    </ul>
-                    <p class="footer__contenedor_paginas_titulo">Ubicación</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.25331693872!2d-70.74954022483134!3d-33.494785899783196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c330b434be21%3A0x3c2c8597a66b1c5f!2sMaip%C3%BA%2C%20Maipu%2C%20Santiago%20Metropolitan%20Region!5e0!3m2!1sen!2scl!4v1686950433401!5m2!1sen!2scl"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="footer__contenedor__contacto">
-                    <p class="footer__contenedor__contacto_titulo">Contactenos</p>
-                    <form data-form>
-                        <label for="nombre">Nombre</label>
-                        <div class="footer__contenedor__input__mensaje">
-                            <input class="footer__contenedor__contacto_input" type="text" name="nombre" id="nombre" required placeholder="Waldo" data-tipo="nombre"/>
-                            <span class="footer__input__mensaje">Este campo debe ser completado</span>
-                        </div>
-                        <label for="email">Email</label>
-                        <div class="footer__contenedor__input__mensaje">
-                            <input class="footer__contenedor__contacto_input" type="email" name="email" id="email" required placeholder="email@dominio.com" pattern="[a-zA-Z0-9._\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}" data-tipo="email"/>
-                            <span class="footer__input__mensaje">Este campo debe ser completado</span>
-                        </div>
-                        <label for="asunto">Asunto</label>
-                        <div class="footer__contenedor__input__mensaje">
-                            <input  class="footer__contenedor__contacto_input" type="text" name="asunto" id="asunto" required placeholder="Consulta sobre ..." data-tipo="asunto"/>
-                            <span class="footer__input__mensaje">Este campo debe ser completado</span>
-                        </div>
-                        <label for="mensaje_label">Mensaje</label>
-                        <div class="footer__contenedor__input__mensaje">
-                            <textarea  class="footer__contenedor__contacto_input" name="mensaje" id="mensaje" rows="5" required placeholder="Tienen disponible..." data-tipo="mensaje"></textarea>
-                            <span class="footer__input__mensaje">Este campo debe ser completado</span>
-                        </div>
-                        <button type="submit" class="boton_contacto" id="boton_contacto" >Enviar Consulta</button>
-                    </form>
-                </div>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/parametros.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/portada/gym.css" />
+    <link rel="stylesheet" href="css/portada/oficina.css" />
+    <link rel="stylesheet" href="css/portada/casual.css" />
+    <link rel="stylesheet" href="css/productos/productos.css" />
+    <link rel="stylesheet" href="css/404.css" />
+  </head>
+  <body>
+    <header class="header contenedor">
+      <a class="header__link" href="/"
+        ><img
+          src="img/logo.png"
+          alt="Logo Tienda Beauty Women"
+          class="header__logo"
+          title="Tienda Beauty Woman"
+      /></a>
+      <nav class="header__nav">
+        <ul class="header__lista">
+          <li class="header__item">
+            <div class="header__contenedor_buscar_lupa">
+              <input
+                type="text"
+                class="header__buscador"
+                placeholder="¿Qué deseas buscar?"
+              /><i
+                class="fa-solid fa-magnifying-glass header__boton_buscar"
+                title="Buscar"
+              ></i>
             </div>
-            <div class="footer__contenedor__creador">
-                <p>Página Web desarrollada y diseñada 100% por Waldo Hidalgo Oyarce:</p>
-                <p><a href="https://www.waldohidalgo.cl/" target="_blank">https://www.waldohidalgo.cl/</a></p>
-                <p>Copyright 2023 © Waldo Hidalgo Oyarce </p>
-                <p>Iconos: <a style="font-weight: 700" target="_blank" href="https://icons8.com">Icons8</a> </p>
-                <p><span style="font-weight: 400;">Imagenes:</span> <a target="_blank" href="https://www.freepik.com/">FreePik</a> - <a target="_blank" href="https://www.aliexpress.com/">Aliexpress</a></p>
+          </li>
+          <li class="header__item">
+            <button class="header__button_login">
+              <a href="login.html" title="Ingresar">LOG IN</a>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <footer class="footer">
+      <div class="footer__contenedor">
+        <div class="footer__contenedor_logo">
+          <a href="/" class="footer__link"
+            ><img
+              src="img/logo.png"
+              alt="Logo Tienda Beauty Women"
+              class="footer__logo"
+              title="Tienda Beauty Woman"
+          /></a>
+          <div class="footer_contenedor_menu">
+            <span style="font-weight: 700">Nuestra Ubicación:</span>
+            <div>
+              Santiago, Chile<img
+                style="width: 2rem; margin-bottom: -10px"
+                src="https://img.icons8.com/color/48/chile.png"
+                alt="chile"
+              />
             </div>
-        </footer>
-        <script type="module" src="controllers/searchProduct_controller.js"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <script src="js/iniciar_sesion.js"></script>
-        <script src="js/validacion_contacto.js"></script>
-        <script src="js/search.js"></script>
-    </body>
+            <span style="font-weight: 700">Horario Sala de Ventas:</span>
+            <div>
+              <span>Lunes a Viernes: 9:00 AM a 18:00 PM</span>
+            </div>
+            <div>
+              <span style="font-weight: 700"
+                >Teléfono:<a href="tel:56963061568">+569 63061568</a></span
+              >
+            </div>
+            <div>
+              <span style="font-weight: 700">Mail</span>:
+              <a href="mailto:whidalgohp@gmail.com">whidalgohp@gmail.com</a>
+            </div>
+          </div>
+          <p style="font-weight: 700">Medios de Pago</p>
+          <img
+            style="width: 100%"
+            src="img/medios-de-pago.png"
+            alt="Medios de Pago"
+            class="footer_mediosdepago"
+          />
+        </div>
+        <div class="footer__contenedor_paginas">
+          <p class="footer__contenedor_paginas_titulo">Menú</p>
+          <ul class="footer__contenedor_paginas_lista">
+            <li class="footer__contenedor_paginas_item">
+              <a href="#">Quienes Somos &#128081;</a>
+            </li>
+            <li class="footer__contenedor_paginas_item">
+              <a href="#">Nuestros Productos &#128150;</a>
+            </li>
+            <li class="footer__contenedor_paginas_item">
+              <a href="">Nuestras Tiendas &#128087;</a>
+            </li>
+            <li class="footer__contenedor_paginas_item">
+              <a href="">Programa de Fidelización &#128260;</a>
+            </li>
+            <li class="footer__contenedor_paginas_item">
+              <a href="">Blog &#128187;</a>
+            </li>
+          </ul>
+          <p class="footer__contenedor_paginas_titulo">Ubicación</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.25331693872!2d-70.74954022483134!3d-33.494785899783196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c330b434be21%3A0x3c2c8597a66b1c5f!2sMaip%C3%BA%2C%20Maipu%2C%20Santiago%20Metropolitan%20Region!5e0!3m2!1sen!2scl!4v1686950433401!5m2!1sen!2scl"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer__contenedor__contacto">
+          <p class="footer__contenedor__contacto_titulo">Contactenos</p>
+          <form data-form>
+            <label for="nombre">Nombre</label>
+            <div class="footer__contenedor__input__mensaje">
+              <input
+                class="footer__contenedor__contacto_input"
+                type="text"
+                name="nombre"
+                id="nombre"
+                required
+                placeholder="Waldo"
+                data-tipo="nombre"
+              />
+              <span class="footer__input__mensaje"
+                >Este campo debe ser completado</span
+              >
+            </div>
+            <label for="email">Email</label>
+            <div class="footer__contenedor__input__mensaje">
+              <input
+                class="footer__contenedor__contacto_input"
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="email@dominio.com"
+                pattern="[a-zA-Z0-9._\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}"
+                data-tipo="email"
+              />
+              <span class="footer__input__mensaje"
+                >Este campo debe ser completado</span
+              >
+            </div>
+            <label for="asunto">Asunto</label>
+            <div class="footer__contenedor__input__mensaje">
+              <input
+                class="footer__contenedor__contacto_input"
+                type="text"
+                name="asunto"
+                id="asunto"
+                required
+                placeholder="Consulta sobre ..."
+                data-tipo="asunto"
+              />
+              <span class="footer__input__mensaje"
+                >Este campo debe ser completado</span
+              >
+            </div>
+            <label for="mensaje_label">Mensaje</label>
+            <div class="footer__contenedor__input__mensaje">
+              <textarea
+                class="footer__contenedor__contacto_input"
+                name="mensaje"
+                id="mensaje"
+                rows="5"
+                required
+                placeholder="Tienen disponible..."
+                data-tipo="mensaje"
+              ></textarea>
+              <span class="footer__input__mensaje"
+                >Este campo debe ser completado</span
+              >
+            </div>
+            <button
+              type="submit"
+              class="boton_contacto"
+              id="boton_contacto"
+              title="Enviar Consulta"
+            >
+              Enviar Consulta
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__contenedor__creador">
+        <p>Página Web desarrollada y diseñada 100% por Waldo Hidalgo Oyarce:</p>
+        <p>
+          <a href="https://waldohidalgo.vercel.app/" target="_blank"
+            >https://waldohidalgo.vercel.app/</a
+          >
+        </p>
+        <p>Copyright 2023 © Waldo Hidalgo Oyarce</p>
+        <p>
+          Iconos:
+          <a style="font-weight: 700" target="_blank" href="https://icons8.com"
+            >Icons8</a
+          >
+        </p>
+        <p>
+          <span style="font-weight: 400">Imagenes:</span>
+          <a target="_blank" href="https://www.freepik.com/">FreePik</a> -
+          <a target="_blank" href="https://www.aliexpress.com/">Aliexpress</a>
+        </p>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="controllers/searchProduct_controller.js"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/iniciar_sesion.js"></script>
+    <script src="js/validacion_contacto.js"></script>
+    <script src="js/search.js"></script>
+  </body>
 </html>
